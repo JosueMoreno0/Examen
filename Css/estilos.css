@@ -1,0 +1,64 @@
+#movies {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+#movies td, #movies th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#movies tr:nth-child(even){background-color: #def432;}
+
+#moviess tr:hover {background-color: #d7d7c4;}
+
+#movies th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #171893;
+    color: white;
+}
+
+
+
+
+.nav,
+.sectionI,
+.siderbar
+{
+ margin: 0 1% 24px 1%;
+
+}
+
+.nav {
+  justify-content: center;
+text-align: center;
+align-items: center;
+ width: 97%;
+ clear: both;
+ padding: 10px;
+ background-color: rgb(209, 164, 191);
+ text-align: center;
+}
+
+.idComent{
+  width: 30px;
+}
+
+.sectionI {
+    float: left;
+    width: 20%;
+    display:grid;
+    color: #000000;
+    padding: 10px;
+    background-color: rgb(198, 176, 176);
+   }
+
+  
+  .siderbar {
+  float: right;
+  width: 30%;
+  height: 100%;
+  background-color: rgb(149, 190, 167);
+  }
